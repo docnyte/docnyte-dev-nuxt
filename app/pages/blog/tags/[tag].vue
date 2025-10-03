@@ -34,14 +34,14 @@ if (!allPosts.value) {
 }
 
 const postCount = computed(() => posts.value?.length || 0)
-const pageTitle = computed(() => `Posts tagged "${tag.value}"`)
-const pageDescription = computed(() => `${postCount.value} post${postCount.value !== 1 ? 's' : ''} found`)
+const pageTitle = computed(() => 'Articles Matching')
+const pageDescription = computed(() => `${postCount.value} article${postCount.value !== 1 ? 's' : ''} found for "${tag.value}" tag`)
 
 useSeoMeta({
-  title: `${tag.value} Posts - ${page.value?.title || 'Blog'}`,
-  ogTitle: `${tag.value} Posts - ${page.value?.title || 'Blog'}`,
-  description: `Browse all blog posts tagged with "${tag.value}". Found ${postCount.value} posts.`,
-  ogDescription: `Browse all blog posts tagged with "${tag.value}". Found ${postCount.value} posts.`
+  title: `Articles Matching "${tag.value}" - ${page.value?.title || 'Blog'}`,
+  ogTitle: `Articles Matching "${tag.value}" - ${page.value?.title || 'Blog'}`,
+  description: `${postCount.value} article${postCount.value !== 1 ? 's' : ''} found for "${tag.value}". Browse all blog articles tagged with this topic.`,
+  ogDescription: `${postCount.value} article${postCount.value !== 1 ? 's' : ''} found for "${tag.value}". Browse all blog articles tagged with this topic.`
 })
 </script>
 

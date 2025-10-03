@@ -81,7 +81,8 @@ useSeoMeta({
                   size="sm"
                   variant="soft"
                   :label="tag"
-                  class="hover:ring-2 hover:ring-primary transition-all"
+                  class="relative z-10 hover:ring-2 hover:ring-primary transition-all"
+                  @click.stop
                 />
               </div>
             </template>
