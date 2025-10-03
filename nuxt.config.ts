@@ -34,5 +34,13 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
+  },
+
+  // Note: Tailwind CSS v4 sourcemap warning is expected behavior
+  // See: https://github.com/tailwindlabs/tailwindcss/issues/12443
+  vite: {
+    css: {
+      devSourcemap: true
+    }
   }
 })

@@ -101,8 +101,7 @@ defineProps<{
           duration: 0.6,
           delay: 0.5
         }"
-      >
-      </Motion>
+      />
 
       <div class="gap-x-4 inline-flex mt-4">
         <Motion
@@ -130,6 +129,5 @@ defineProps<{
         </Motion>
       </div>
     </template>
-
   </UPageHero>
 </template>
