@@ -23,7 +23,7 @@ export default defineAppConfig({
     }
   },
   footer: {
-    credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
+    credits: `© ${new Date().getFullYear()} • Doctor Nyte . All rights reserved.`,
     colorMode: false,
     links: [{
       'icon': 'i-simple-icons-discord',
