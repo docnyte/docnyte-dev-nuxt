@@ -4,6 +4,7 @@ description: "Exploring GraphQL vs REST API evolution strategies during late-nig
 date: 2025-10-03
 image: /avatar.jpg
 minRead: 8
+tags: ["GraphQL", "API Design", "Backend", "Night Coding", "Spring Boot"]
 author:
   name: Doctor Nyte
   avatar:

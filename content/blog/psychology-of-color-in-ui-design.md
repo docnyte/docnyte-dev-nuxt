@@ -5,6 +5,7 @@ description: Exploring how strategic color choices can influence user behavior,
 date: 2025-03-15
 image: https://images.pexels.com/photos/40799/paper-colorful-color-loose-40799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 minRead: 5
+tags: ["UI Design", "Psychology", "Frontend", "User Experience", "Design Theory"]
 author:
   name: DocNyte
   avatar:

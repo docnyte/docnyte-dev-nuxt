@@ -94,6 +94,20 @@ const formatDate = (dateString: string) => {
               v-bind="page.author"
             />
           </div>
+          <div
+            v-if="page.tags && page.tags.length > 0"
+            class="flex flex-wrap gap-2 justify-center mt-4"
+          >
+            <UButton
+              v-for="tag in page.tags"
+              :key="tag"
+              :to="`/blog/tags/${encodeURIComponent(tag)}`"
+              size="sm"
+              variant="soft"
+              :label="tag"
+              class="hover:ring-2 hover:ring-primary transition-all"
+            />
+          </div>
         </div>
         <UPageBody class="max-w-3xl mx-auto">
           <ContentRenderer

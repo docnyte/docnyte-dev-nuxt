@@ -68,7 +68,24 @@ useSeoMeta({
                   ? 'sm:-rotate-1 overflow-visible'
                   : 'sm:rotate-1 overflow-visible'
             }"
-          />
+          >
+            <template #footer>
+              <div
+                v-if="post.tags && post.tags.length > 0"
+                class="flex flex-wrap gap-2 mt-3"
+              >
+                <UButton
+                  v-for="tag in post.tags"
+                  :key="tag"
+                  :to="`/blog/tags/${encodeURIComponent(tag)}`"
+                  size="sm"
+                  variant="soft"
+                  :label="tag"
+                  class="hover:ring-2 hover:ring-primary transition-all"
+                />
+              </div>
+            </template>
+          </UBlogPost>
         </Motion>
       </UBlogPosts>
     </UPageSection>

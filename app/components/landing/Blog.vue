@@ -39,19 +39,35 @@ if (!posts.value) {
         }"
       >
         <template #footer>
-          <UButton
-            size="xs"
-            variant="link"
-            class="px-0 gap-0"
-            label="Read Article"
-          >
-            <template #trailing>
-              <UIcon
-                name="i-lucide-arrow-right"
-                class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
+          <div class="flex flex-col gap-2">
+            <div
+              v-if="post.tags && post.tags.length > 0"
+              class="flex flex-wrap gap-1"
+            >
+              <UButton
+                v-for="tag in post.tags.slice(0, 3)"
+                :key="tag"
+                :to="`/blog/tags/${encodeURIComponent(tag)}`"
+                size="xs"
+                variant="soft"
+                :label="tag"
+                class="hover:ring-2 hover:ring-primary transition-all"
               />
-            </template>
-          </UButton>
+            </div>
+            <UButton
+              size="xs"
+              variant="link"
+              class="px-0 gap-0 self-start"
+              label="Read Article"
+            >
+              <template #trailing>
+                <UIcon
+                  name="i-lucide-arrow-right"
+                  class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
+                />
+              </template>
+            </UButton>
+          </div>
         </template>
       </UBlogPost>
     </UBlogPosts>
