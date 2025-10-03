@@ -42,7 +42,7 @@ if (!posts.value) {
           <div class="flex flex-col gap-2">
             <div
               v-if="post.tags && post.tags.length > 0"
-              class="flex flex-wrap gap-1"
+              class="flex flex-wrap gap-1 p-2"
             >
               <UButton
                 v-for="tag in post.tags.slice(0, 3)"

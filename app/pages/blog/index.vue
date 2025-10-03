@@ -72,7 +72,7 @@ useSeoMeta({
             <template #footer>
               <div
                 v-if="post.tags && post.tags.length > 0"
-                class="flex flex-wrap gap-2 mt-3"
+                class="flex flex-wrap gap-2 mt-3 p-2"
               >
                 <UButton
                   v-for="tag in post.tags"
