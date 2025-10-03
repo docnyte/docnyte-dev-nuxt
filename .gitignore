@@ -23,5 +23,6 @@ logs
 .env.*
 !.env.example
 
-# VSC
+# VSCode
+.vscode/
 .history
