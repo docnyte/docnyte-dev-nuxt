@@ -1,27 +1,57 @@
-title: About Me
-description: Learn more about my journey as a Boston-based UX/UI Designer & Front-End Developer, my design philosophy, and my passion for crafting intuitive digital experiences.
+title: About Doctor Nyte
+description: Meet Doctor Nyte, a Senior Software Engineer & Solution Architect with 25 years of experience in Java, Spring Boot, Cloud-Native architectures, and Kubernetes. Passionate about sharing knowledge through tutorials and night-shift coding adventures.
+seo:
+  title: About Doctor Nyte - Senior Software Engineer & Solution Architect
+  description: Learn about Doctor Nyte's 25-year journey in software engineering, from Java and Spring Boot to cloud-native microservices. Discover why this night-shift coder shares tutorials on backend development, Kubernetes, and DevOps.
 content: |
-  Hi, I'm **DocNyte**, a UX/UI Designer and Front-End Developer based right here in Boston. For the past six years, I've been immersed in the world of digital product creation, focusing on building experiences that are not just functional, but genuinely intuitive and engaging for users.
+  ### Who's Behind the Keyboard?
 
-  My path started at **Boston University**, where I earned a degree in Interactive Design. It was there I discovered my dual passion for the visual language of design and the logical puzzle of code. Since then, I've honed my skills in both areas, believing that the best digital products are born from a deep understanding of both aesthetics and implementation.
+  Nice to meet you—I'm **Doctor Nyte**. The name? It's a playful twist on "Night" 🌙 with a deliberate geeky misspelling (because why not add a byte of personality?). But there's more to it than wordplay: it perfectly captures my reality as a nocturnal coder. You see, I'm a family man first, which means my daytime hours belong to my loved ones and my professional commitments. It's only after everyone's asleep, when silence settles over the house and I've got a fresh cup of coffee in hand, that I enter my true element. Those quiet hours past midnight? That's when I dive deep into code, experiment with new technologies, and build things just for the joy of it. I'm not burning the midnight oil out of necessity—I'm doing it because that's when my mind is sharpest and most creative.
 
-  ### My Design Philosophy
+  ### The Professional Journey
 
-  My design philosophy is rooted in **empathy** and **problem-solving**. I believe great design starts with understanding the 'why' – the user's needs, motivations, and pain points. I use research, iterative prototyping (often with tools like Figma), and user testing to ensure the solutions I build are truly effective.
+  I'm a **Senior Software Engineer and Solution Architect** with **25 years of experience** building robust, scalable applications. Over two and a half decades, I've witnessed the evolution from monolithic architectures to cloud-native microservices, and I've loved every minute of adapting, learning, and growing with the industry.
 
-  I strive to create interfaces that feel effortless, where functionality and beauty work hand-in-hand. Whether I'm crafting pixel-perfect UIs or writing clean Vue.js/Nuxt.js code, my focus is always on creating value for the end-user.
+  My core expertise lies in the **Java ecosystem**—it's not just a language to me, it's a passion. From the early days of J2EE to modern **Spring Boot** microservices, I've built enterprise-grade solutions that power critical business operations. I specialize in designing and implementing **service-oriented and event-driven architectures** that are resilient, maintainable, and scalable.
 
-  ### What Drives Me
+  ### Technical Expertise
 
-  What keeps me excited about this work is the constant learning and the challenge of translating complex ideas into simple, elegant solutions. There's nothing more rewarding than seeing a design come to life and knowing it's making someone's digital interaction easier or more enjoyable.
+  Here's what I bring to the table:
 
-  ### Beyond the Screen
+  **Core Technologies:**
 
-  When I'm not designing or coding, you might find me exploring Boston's latest coffee shops, hiking nearby trails, or occasionally contributing to open-source projects.
+  - **Java & Spring Boot** – My bread and butter for building production-grade applications
+  - **Microservices Architecture** – Designing distributed systems that scale
+  - **Cloud-Native Development** – Building applications optimized for cloud environments
 
-  Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate!
-images:
-  - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My coffee workspace
-  - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My trip to Tokyo
+  **DevOps & Infrastructure:**
+
+  - **Container Orchestration** – Docker, Kubernetes, OpenShift
+  - **CI/CD Pipelines** – Jenkins CI, GitLab CI/CD, automation at every step
+  - **Cloud Architectures** – Designing solutions for modern cloud service providers
+
+  I'm also a **certified professional** with multiple certifications in Java and Spring technologies, always ensuring my skills stay sharp and validated.
+
+  ### Always Learning, Always Sharing
+
+  What keeps me energized after 25 years? **The relentless pace of innovation.** Technology never sleeps, and neither does my curiosity. I'm constantly exploring new territories—**Python** for scripting and automation, emerging **cloud architecture patterns**, and the latest in **DevOps practices**.
+
+  But learning in isolation isn't enough for me. **That's why this blog exists.** I believe the best way to solidify knowledge is to share it. Whether it's a deep dive into Spring Boot best practices, a tutorial on Kubernetes deployments, or lessons learned from real-world architectural challenges, I want to document my night-shift experiments and help fellow engineers along the way.
+
+  ### Why "Night Shift"?
+
+  Let's be honest—being a family man means my evenings are spoken for (and I wouldn't have it any other way). But once the kids are asleep and responsibilities are handled, that's **my time**. The late hours are when I experiment with new frameworks, write tutorials, build side projects, and contribute to the community purely for the love of it.
+
+  This blog is my digital workshop—a place where I share:
+
+  - **In-depth tutorials** on Java, Spring, Python, and cloud technologies
+  - **Architectural insights** from real-world projects
+  - **DevOps best practices** and automation tips
+  - **Lessons learned** from 25 years in the trenches
+  - **Certification guides** and study resources
+
+  ### Let's Connect
+
+  Whether you're a fellow night owl, a Java enthusiast, a cloud architecture geek, or just someone passionate about building great software, I'm glad you're here. Pull up a chair, grab some coffee ☕, and let's learn together.
+
+  Feel free to explore my [projects](/projects), read my [blog posts](/blog), or [get in touch](/#contact) if you want to collaborate or just talk tech!
