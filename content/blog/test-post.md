@@ -5,6 +5,7 @@ date: 2025-10-03
 image: /avatar.jpg
 minRead: 8
 tags: ["GraphQL", "API Design", "Backend", "Night Coding", "Spring Boot"]
+repository: https://github.com/danvega/api-users
 author:
   name: Doctor Nyte
   avatar:

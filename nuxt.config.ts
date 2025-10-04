@@ -18,6 +18,15 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2024-11-01',
 
+  content: {
+    highlight: {
+      theme: {
+        default: 'github-light',
+        dark: 'github-dark'
+      }
+    }
+  },
+
   nitro: {
     prerender: {
       routes: [

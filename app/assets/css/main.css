@@ -23,3 +23,12 @@
     background-color: #474747;
   }
 }
+
+/* Code blocks styling */
+pre {
+  @apply rounded-lg p-4 my-4 overflow-x-auto;
+}
+
+pre code {
+  @apply text-sm;
+}

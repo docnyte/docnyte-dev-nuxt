@@ -109,6 +109,11 @@ const formatDate = (dateString: string) => {
             />
           </div>
         </div>
+        <GitHubRepo
+          v-if="page.repository"
+          :url="page.repository"
+          class="max-w-3xl mx-auto"
+        />
         <UPageBody class="max-w-3xl mx-auto">
           <ContentRenderer
             v-if="page.body"
