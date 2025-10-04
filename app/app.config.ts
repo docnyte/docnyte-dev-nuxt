@@ -32,14 +32,14 @@ export default defineAppConfig({
       'aria-label': 'Nuxt on Discord'
     }, {
       'icon': 'i-simple-icons-x',
-      'to': 'https://go.nuxt.com/x',
+      'to': 'https://x.com/docnyte',
       'target': '_blank',
-      'aria-label': 'Nuxt on X'
+      'aria-label': 'Doctor Nyte on X'
     }, {
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt/ui',
+      'to': 'https://github.com/docnyte',
       'target': '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
+      'aria-label': 'Doctor Nyte on GitHub'
     }]
   }
 })

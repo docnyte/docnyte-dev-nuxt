@@ -34,9 +34,11 @@ content: |
 
   ### Always Learning, Always Sharing
 
-  What keeps me energized after 25 years? **The relentless pace of innovation.** Technology never sleeps, and neither does my curiosity. I'm constantly exploring new territories—**Python** for scripting and automation, emerging **cloud architecture patterns**, and the latest in **DevOps practices**.
+  What keeps me energized after 25 years? **The relentless pace of innovation.** Technology never sleeps, and neither does my curiosity. I'm constantly exploring new territories—**Python** for scripting and automation, emerging **cloud architecture patterns**, the latest in **DevOps practices**, and the fascinating world of **Artificial Intelligence**. AI isn't just a buzzword for me; it's an exciting frontier where I'm experimenting with machine learning models, exploring LLMs, and discovering how AI can enhance traditional backend systems.
 
-  But learning in isolation isn't enough for me. **That's why this blog exists.** I believe the best way to solidify knowledge is to share it. Whether it's a deep dive into Spring Boot best practices, a tutorial on Kubernetes deployments, or lessons learned from real-world architectural challenges, I want to document my night-shift experiments and help fellow engineers along the way.
+  Beyond pure technology, I'm also passionate about **micro-SaaS**—the perfect intersection of technical skills and entrepreneurship. Building small, focused software products that solve real problems is incredibly rewarding. It combines everything I love: architecture design, clean code, and creating value for users.
+
+  But learning in isolation isn't enough for me. **That's why this blog exists.** I believe the best way to solidify knowledge is to share it. Whether it's a deep dive into Spring Boot best practices, a tutorial on Kubernetes deployments, lessons learned from real-world architectural challenges, or experiments with AI integration, I want to document my night-shift adventures and help fellow engineers along the way.
 
   ### Why "Night Shift"?
 
@@ -47,11 +49,13 @@ content: |
   - **In-depth tutorials** on Java, Spring, Python, and cloud technologies
   - **Architectural insights** from real-world projects
   - **DevOps best practices** and automation tips
+  - **AI experiments** and integration patterns for backend systems
+  - **Micro-SaaS journey** – building and launching small software products
   - **Lessons learned** from 25 years in the trenches
   - **Certification guides** and study resources
 
   ### Let's Connect
 
-  Whether you're a fellow night owl, a Java enthusiast, a cloud architecture geek, or just someone passionate about building great software, I'm glad you're here. Pull up a chair, grab some coffee ☕, and let's learn together.
+  Whether you're a fellow night owl, a Java enthusiast, a cloud architecture geek, an AI explorer, or just someone passionate about building great software, I'm glad you're here. Pull up a chair, grab some coffee ☕, and let's learn together.
 
-  Feel free to explore my [projects](/projects), read my [blog posts](/blog), or [get in touch](/#contact) if you want to collaborate or just talk tech!
+  Feel free to read my [blog posts](/blog), check out my [GitHub projects](https://github.com/docnyte), or reach out if you want to collaborate or just talk tech. The easiest way to connect is via DM on [X (Twitter)](https://x.com/docnyte) or [GitHub](https://github.com/docnyte)—I'm always happy to chat about code, architecture, AI, micro-SaaS, or whatever's keeping you up at night coding! 🌙
